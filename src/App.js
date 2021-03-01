@@ -8,7 +8,7 @@ function App() {
   return (
     <Switch>
       <Route exact path="/" render={(props) => <HomeScreen{...props} />}/>
-      <Route path="/search" render={(props) => <MovieSearchScreen{...props} />}/>
+      <Route exact path="/search" render={(props) => <MovieSearchScreen{...props} />}/>
       <Route path="/:imdbID" render={(props) => <MovieDetailsScreen{...props}/>}/>
     </Switch>
   );
