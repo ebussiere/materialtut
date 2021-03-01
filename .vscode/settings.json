@@ -1,0 +1,8 @@
+{
+  "appService.zipIgnorePattern": [
+    "node_modules{,/**}",
+    ".vscode{,/**}"
+  ],
+  "appService.defaultWebAppToDeploy": "/subscriptions/c31631bf-d68f-44f3-8f90-4e092239363a/resourceGroups/codeddy/providers/Microsoft.Web/sites/cemovies",
+  "appService.deploySubpath": "."
+}
